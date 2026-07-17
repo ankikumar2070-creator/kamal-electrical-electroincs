@@ -1,181 +1,207 @@
-/* ===== Basic Reset ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-    background: #ffffff;
-    color: #333;
-}
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* ===== Header ===== */
-header {
-    background: #111;
-    color: white;
-    padding: 15px 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+<title>Kamal Electrical | Electrical Services</title>
 
-.logo {
-    display: flex;
-    align-items: center;
-}
+<link rel="stylesheet" href="style.css">
 
-.logo img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-.logo h1 {
-    margin-left: 10px;
-    font-size: 28px;
-}
-
-/* ===== Navigation ===== */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-nav ul li a:hover {
-    color: #00bcd4;
-}
+</head>
 
 
-/* ===== Hero Section ===== */
-.hero {
-    height: 450px;
-    background: url("images/shop1.jpg") center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero h2 {
-    color: white;
-    font-size: 45px;
-    background: rgba(0,0,0,0.5);
-    padding: 20px;
-}
+<body>
 
 
-/* ===== Section ===== */
-section {
-    padding: 50px 8%;
-}
+<header>
 
-.title {
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 30px;
-}
+<div class="logo">
 
+<img src="images/logo.png">
 
-/* ===== Products ===== */
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap: 25px;
-}
+<h1>Kamal Electrical</h1>
 
-.card {
-    background: white;
-    box-shadow: 0 0 10px #ccc;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.card h3 {
-    margin: 15px 0;
-}
+</div>
 
 
-/* ===== Gallery ===== */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap: 20px;
-}
+<nav>
 
-.gallery img {
-    width:100%;
-    height:220px;
-    object-fit:cover;
-    border-radius:10px;
-}
+<ul>
 
+<li><a href="index.html">Home</a></li>
 
-/* ===== Contact Form ===== */
-form {
-    max-width:500px;
-    margin:auto;
-}
+<li><a href="about.html">About</a></li>
 
-input, textarea {
-    width:100%;
-    padding:12px;
-    margin:10px 0;
-    border:1px solid #ccc;
-}
+<li><a href="services.html">Services</a></li>
 
-button {
-    background:#111;
-    color:white;
-    padding:12px 25px;
-    border:none;
-    cursor:pointer;
-}
+<li><a href="gallery.html">Gallery</a></li>
 
-button:hover {
-    background:#00bcd4;
-}
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
 
 
-/* ===== Footer ===== */
-footer {
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
+</header>
 
 
-/* ===== Mobile Responsive ===== */
-@media(max-width:768px){
 
-header {
-    flex-direction:column;
-}
 
-nav ul {
-    flex-direction:column;
-    text-align:center;
-    margin-top:15px;
-}
+<section class="hero">
 
-.hero h2 {
-    font-size:30px;
-}
 
-}
+<div>
+
+<h2>
+Reliable Electrical Solutions
+<br>
+For Your Home & Business
+</h2>
+
+
+<a href="contact.html" class="btn">
+Contact Now
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Welcome To Kamal Electrical
+</h2>
+
+
+<p>
+
+Kamal Electrical provides professional electrical services,
+house wiring, CCTV installation, inverter repair and all
+types of electrical solutions with quality work.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Our Services
+</h2>
+
+
+
+<div class="products">
+
+
+<div class="card">
+
+<img src="images/wiring.jpg">
+
+<h3>House Wiring</h3>
+
+<p>
+New wiring and repairing services.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="images/cctv.jpg">
+
+<h3>CCTV Installation</h3>
+
+<p>
+Security camera installation.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="images/electrical1.jpg">
+
+<h3>Electrical Repair</h3>
+
+<p>
+Fan, light, switch and appliance repair.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Why Choose Us?
+</h2>
+
+
+<ul>
+
+<li>✔ Experienced Electrician</li>
+
+<li>✔ Quality Work</li>
+
+<li>✔ Fast Service</li>
+
+<li>✔ Affordable Price</li>
+
+</ul>
+
+
+</section>
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 Kamal Electrical | All Rights Reserved
+</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
