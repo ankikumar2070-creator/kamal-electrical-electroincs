@@ -1,1 +1,181 @@
+/* ===== Basic Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background: #ffffff;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background: #111;
+    color: white;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+/* ===== Navigation ===== */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+
+/* ===== Hero Section ===== */
+.hero {
+    height: 450px;
+    background: url("images/shop1.jpg") center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 45px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+
+/* ===== Section ===== */
+section {
+    padding: 50px 8%;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+
+/* ===== Products ===== */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+
+/* ===== Gallery ===== */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+
+/* ===== Contact Form ===== */
+form {
+    max-width:500px;
+    margin:auto;
+}
+
+input, textarea {
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+}
+
+button {
+    background:#111;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover {
+    background:#00bcd4;
+}
+
+
+/* ===== Footer ===== */
+footer {
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+/* ===== Mobile Responsive ===== */
+@media(max-width:768px){
+
+header {
+    flex-direction:column;
+}
+
+nav ul {
+    flex-direction:column;
+    text-align:center;
+    margin-top:15px;
+}
+
+.hero h2 {
+    font-size:30px;
+}
+
+}
