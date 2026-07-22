@@ -444,3 +444,52 @@ font-size:18px;
 border:none;
 
 }
+.gallery img{
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+.review{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:90px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:#fff;
+    font-size:30px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    z-index:999;
+}
+
+.call-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:60px;
+    height:60px;
+    background:#0b2e73;
+    color:#fff;
+    font-size:26px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    z-index:999;
+}
