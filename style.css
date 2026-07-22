@@ -1,207 +1,326 @@
-<!DOCTYPE html>
-<html lang="en">
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
 
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+body{
+    background:#f5f7fb;
+    color:#222;
+}
 
-<title>Kamal Electrical | Electrical Services</title>
+/* Top Bar */
 
-<link rel="stylesheet" href="style.css">
+.topbar{
+    background:#0b2e73;
+    color:#fff;
+    padding:10px 0;
+    font-size:14px;
+}
 
-</head>
+.topbar span{
+    margin-right:20px;
+}
 
+.topbar a{
+    color:#fff;
+    margin-left:15px;
+    font-size:18px;
+    transition:.3s;
+}
 
-<body>
+.topbar a:hover{
+    color:#ffc107;
+}
 
+/* Navbar */
 
-<header>
+.navbar{
+    padding:15px 0;
+    background:#fff;
+}
 
-<div class="logo">
+.navbar-brand{
+    font-size:34px;
+    font-weight:800;
+    color:#0b2e73 !important;
+    line-height:1;
+}
 
-<img src="images/logo.png">
+.navbar-brand span{
+    display:block;
+    font-size:15px;
+    color:#222;
+    font-weight:600;
+}
 
-<h1>Kamal Electrical</h1>
+.nav-link{
+    color:#222 !important;
+    font-weight:600;
+    margin:0 10px;
+    transition:.3s;
+}
 
-</div>
+.nav-link:hover{
+    color:#0b2e73 !important;
+}
 
+.btn-warning{
+    background:#ffc107;
+    border:none;
+    padding:10px 24px;
+    border-radius:8px;
+    font-weight:600;
+}
 
-<nav>
+.btn-warning:hover{
+    background:#e3a700;
+}
 
-<ul>
+/* Hero */
 
-<li><a href="index.html">Home</a></li>
+.hero{
 
-<li><a href="about.html">About</a></li>
+    background:linear-gradient(135deg,#062f7d,#103d95);
 
-<li><a href="services.html">Services</a></li>
+    padding:90px 0;
 
-<li><a href="gallery.html">Gallery</a></li>
+    color:#fff;
 
-<li><a href="contact.html">Contact</a></li>
+}
 
-</ul>
+.hero h1{
 
-</nav>
+    font-size:64px;
 
+    font-weight:800;
 
-</header>
+    line-height:1.1;
 
+    margin-bottom:25px;
 
+}
 
+.hero p{
 
-<section class="hero">
+    font-size:20px;
 
+    margin-bottom:35px;
 
-<div>
+    color:#f5f5f5;
 
-<h2>
-Reliable Electrical Solutions
-<br>
-For Your Home & Business
-</h2>
+}
 
+.hero .btn{
 
-<a href="contact.html" class="btn">
-Contact Now
-</a>
+    padding:14px 35px;
 
+    border-radius:40px;
 
-</div>
+    font-weight:600;
 
+    margin-right:15px;
 
-</section>
+}
 
+.btn-primary{
 
+    background:#ffc107;
 
+    border:none;
 
+    color:#000;
 
-<section>
+}
 
+.btn-primary:hover{
 
-<h2 class="title">
-Welcome To Kamal Electrical
-</h2>
+    background:#ffb300;
 
+}
 
-<p>
+.btn-outline-light:hover{
 
-Kamal Electrical provides professional electrical services,
-house wiring, CCTV installation, inverter repair and all
-types of electrical solutions with quality work.
+    color:#000;
 
-</p>
+}
 
+.hero img{
 
-</section>
+    width:100%;
 
+    animation:float 3s ease-in-out infinite;
 
+}
 
+@keyframes float{
 
+0%{
 
-<section>
+transform:translateY(0);
 
+}
 
-<h2 class="title">
-Our Services
-</h2>
+50%{
 
+transform:translateY(-12px);
 
+}
 
-<div class="products">
+100%{
 
+transform:translateY(0);
 
-<div class="card">
+}
 
-<img src="images/wiring.jpg">
+}
 
-<h3>House Wiring</h3>
+/* Section */
 
-<p>
-New wiring and repairing services.
-</p>
+section{
 
-</div>
+padding:80px 0;
 
+}
 
+.section-title{
 
-<div class="card">
+font-size:38px;
 
-<img src="images/cctv.jpg">
+font-weight:700;
 
-<h3>CCTV Installation</h3>
+color:#0b2e73;
 
-<p>
-Security camera installation.
-</p>
+margin-bottom:40px;
 
-</div>
+}
 
+/* Cards */
 
+.card{
 
-<div class="card">
+border:none;
 
-<img src="images/electrical1.jpg">
+border-radius:15px;
 
-<h3>Electrical Repair</h3>
+overflow:hidden;
 
-<p>
-Fan, light, switch and appliance repair.
-</p>
+transition:.4s;
 
-</div>
+box-shadow:0 8px 25px rgba(0,0,0,.08);
 
+}
 
-</div>
+.card:hover{
 
+transform:translateY(-8px);
 
-</section>
+}
 
+.card img{
 
+height:220px;
 
+object-fit:cover;
 
+}
 
+.card-body{
 
-<section>
+padding:20px;
 
+}
 
-<h2 class="title">
-Why Choose Us?
-</h2>
+.card-title{
 
+font-weight:700;
 
-<ul>
+color:#0b2e73;
 
-<li>✔ Experienced Electrician</li>
+}
 
-<li>✔ Quality Work</li>
+.card-text{
 
-<li>✔ Fast Service</li>
+font-size:15px;
 
-<li>✔ Affordable Price</li>
+}
 
-</ul>
+/* Buttons */
 
+.btn-main{
 
-</section>
+background:#0b2e73;
 
+color:#fff;
 
+padding:12px 30px;
 
+border-radius:40px;
 
+text-decoration:none;
 
-<footer>
+display:inline-block;
 
-<p>
-© 2026 Kamal Electrical | All Rights Reserved
-</p>
+}
 
-</footer>
+.btn-main:hover{
 
+background:#ffc107;
 
+color:#000;
 
-<script src="script.js"></script>
+}
 
+/* Footer */
 
-</body>
+footer{
 
-</html>
+background:#061c4a;
+
+color:#fff;
+
+padding:70px 0 20px;
+
+}
+
+footer h5{
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+footer a{
+
+color:#fff;
+
+text-decoration:none;
+
+display:block;
+
+margin-bottom:10px;
+
+}
+
+footer a:hover{
+
+color:#ffc107;
+
+}
+
+.copy{
+
+border-top:1px solid rgba(255,255,255,.2);
+
+margin-top:40px;
+
+padding-top:20px;
+
+text-align:center;
+
+}
