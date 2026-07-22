@@ -324,3 +324,48 @@ padding-top:20px;
 text-align:center;
 
 }
+.features{
+
+background:#fff;
+
+padding:70px 0;
+
+}
+
+.feature-box{
+
+background:#fff;
+
+padding:35px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.feature-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+.feature-box i{
+
+font-size:45px;
+
+color:#0b2e73;
+
+margin-bottom:20px;
+
+}
+
+.feature-box h4{
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
