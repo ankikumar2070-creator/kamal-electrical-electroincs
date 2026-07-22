@@ -1,1 +1,126 @@
+/* =====================================
+   Responsive CSS
+===================================== */
 
+/* Large Devices */
+
+@media(max-width:1200px){
+
+.hero h1{
+font-size:45px;
+}
+
+.section-title h2{
+font-size:36px;
+}
+
+}
+
+/* Tablets */
+
+@media(max-width:992px){
+
+.navbar-nav{
+text-align:center;
+margin-top:15px;
+}
+
+.hero{
+padding:90px 20px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.card{
+margin-bottom:30px;
+}
+
+footer{
+text-align:center;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.topbar{
+text-align:center;
+font-size:13px;
+}
+
+.topbar .text-end{
+text-align:center !important;
+margin-top:10px;
+}
+
+.navbar-brand{
+font-size:22px;
+}
+
+.hero{
+padding:70px 15px;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.section-title h2{
+font-size:28px;
+}
+
+.card img{
+height:200px;
+}
+
+.product-card img{
+height:200px;
+}
+
+.whatsapp,
+.call-btn{
+width:50px;
+height:50px;
+font-size:22px;
+}
+
+}
+
+/* Small Mobile */
+
+@media(max-width:576px){
+
+.container{
+padding:0 15px;
+}
+
+.hero h1{
+font-size:26px;
+}
+
+.btn-warning{
+padding:10px 20px;
+font-size:14px;
+}
+
+footer h4{
+font-size:18px;
+}
+
+footer p{
+font-size:14px;
+}
+
+}
