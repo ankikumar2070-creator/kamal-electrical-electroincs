@@ -502,3 +502,149 @@ border:none;
     transform:scale(1.05);
     box-shadow:0 15px 35px rgba(0,0,0,0.25);
 }
+/* ===================================
+   Kamal Electronics & Electricals
+   Main Style Sheet
+=================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    color:#333;
+    background:#f8f9fa;
+}
+
+/* Container */
+
+.container{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Links */
+
+a{
+    text-decoration:none;
+    transition:.3s;
+}
+
+a:hover{
+    color:#ffc107;
+}
+
+/* Images */
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* Top Bar */
+
+.topbar{
+    background:#0d47a1;
+    color:#fff;
+    padding:10px 0;
+    font-size:14px;
+}
+
+.topbar a{
+    color:#fff;
+    margin-left:15px;
+}
+
+/* Navbar */
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+    color:#0d47a1;
+}
+
+.navbar-brand span{
+    color:#ffc107;
+}
+
+.nav-link{
+    font-weight:600;
+    margin-left:15px;
+    color:#333;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:#0d47a1;
+}
+
+/* Hero */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("../images/hero/hero-banner.jpg");
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+    margin-top:15px;
+}
+
+/* Buttons */
+
+.btn-warning{
+    background:#ffc107;
+    border:none;
+    padding:12px 30px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn-warning:hover{
+    background:#ffb300;
+}
+
+/* Section */
+
+section{
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#0d47a1;
+    font-weight:bold;
+}
+
+.section-title p{
+    color:#666;
+}
