@@ -94,9 +94,17 @@ color:#ff9800;
 
 .hero{
 
+.hero{
+
 height:90vh;
 
-background:black;
+background:
+linear-gradient(
+rgba(0,0,0,.55),
+rgba(0,0,0,.55)
+),
+url("https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkpK758DnT1-sq0vu8UkCy8n6ufq2E0HmoC6nXxRlYC_2LDS95ouqGKolY9MtNHdUP6J2aDHuqUQb4uZdNzGG5cgnWHtI-pJCeQAJ4aDxYT9zDUOxcHFnc4oJmwAJWwT-GuNxh-=s680-w680-h510-rw");
+
 background-size:cover;
 
 background-position:center;
@@ -112,7 +120,6 @@ text-align:center;
 color:white;
 
 }
-
 .hero-content{
 
 animation:show 1.5s;
