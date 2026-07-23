@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<title>Kamal Electrical Services</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+
+<h2>
+Kamal Electrical & Electronics
+</h2>
+
+</div>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="service.html">Services</a>
+
+<a href="products.html">Products</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+
+</header>
+
+
+
+<section class="services-page">
+
+
+<h1>
+Our Services
+</h1>
+
+
+<div class="service-box">
+
+
+
+<div class="service-card">
+
+<h3>⚡ Electrical Services</h3>
+
+<p>
+House wiring, electrical repair, installation and maintenance.
+</p>
+
+</div>
+
+
+
+
+<div class="service-card">
+
+<h3>📷 CCTV Camera</h3>
+
+<p>
+CCTV installation, DVR/NVR setup and security solutions.
+</p>
+
+</div>
+
+
+
+
+<div class="service-card">
+
+<h3>💻 Computer Services</h3>
+
+<p>
+Computer repair, software installation and networking.
+</p>
+
+</div>
+
+
+
+
+<div class="service-card">
+
+<h3>⌨ Data Entry</h3>
+
+<p>
+Typing, online form filling and office documentation.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<footer>
+
+<h3>
+Kamal Electrical & Electronics
+</h3>
+
+<p>
+Electrical | CCTV | Computer Solutions
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
