@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Kamal Electrical & Electronics</title>
 
 <style>
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 body{
     background:#f5f5f5;
 }
 
+
+/* Header */
+
 header{
     background:#0d6efd;
-    color:#fff;
-    padding:15px 50px;
+    color:white;
+    padding:15px 40px;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 
+
 .logo{
-    font-size:28px;
+    font-size:25px;
     font-weight:bold;
 }
+
 
 nav a{
     color:white;
@@ -38,157 +47,373 @@ nav a{
     font-weight:bold;
 }
 
+
+
+/* Home Banner */
+
 .hero{
+
     height:90vh;
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.55)
+    ),
     url("shop.jpg");
+
     background-size:cover;
+
     background-position:center;
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     text-align:center;
+
     color:white;
+
 }
+
 
 .hero h1{
+
     font-size:50px;
+
+    margin-bottom:20px;
+
 }
+
 
 .hero p{
-    margin:20px 0;
+
     font-size:22px;
+
+    margin-bottom:30px;
+
 }
+
+
 
 .btn{
-    display:inline-block;
+
+    background:#ff9800;
+
+    color:white;
+
     padding:12px 30px;
-    background:#ffc107;
-    color:#000;
-    text-decoration:none;
+
     border-radius:5px;
+
+    text-decoration:none;
+
     font-weight:bold;
+
 }
+
+
+
+/* Services */
+
 
 .services{
+
     padding:60px 20px;
+
     text-align:center;
-    background:#fff;
+
 }
+
 
 .services h2{
-    margin-bottom:40px;
+
     color:#0d6efd;
+
+    margin-bottom:40px;
+
 }
+
+
 
 .cards{
+
     display:flex;
-    flex-wrap:wrap;
+
     justify-content:center;
+
+    flex-wrap:wrap;
+
     gap:20px;
+
 }
+
+
 
 .card{
+
+    background:white;
+
     width:280px;
-    background:#fff;
-    padding:20px;
+
+    padding:25px;
+
     border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    box-shadow:0 5px 15px #ccc;
+
 }
+
+
 
 .card h3{
+
     color:#0d6efd;
-    margin-bottom:10px;
+
+    margin-bottom:15px;
+
 }
+
+
+
+/* Contact */
+
+
+.contact{
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+/* Footer */
+
 
 footer{
+
     background:#222;
+
     color:white;
+
     text-align:center;
+
     padding:20px;
+
 }
+
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header{
+
+    flex-direction:column;
+
+}
+
+
+nav{
+
+    margin-top:15px;
+
+}
+
+
+.hero h1{
+
+    font-size:35px;
+
+}
+
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+}
+
 </style>
 
+
 </head>
+
+
 <body>
 
+
+<!-- Header -->
+
 <header>
-<div class="logo">⚡ Kamal Electrical & Electronics</div>
+
+<div class="logo">
+⚡ Kamal Electrical & Electronics
+</div>
+
 
 <nav>
+
 <a href="#">Home</a>
+
 <a href="#">Services</a>
-<a href="#">About Us</a>
+
+<a href="#">About</a>
+
 <a href="#">Contact</a>
+
 </nav>
+
+
 </header>
+
+
+
+
+<!-- Home Section -->
+
 
 <section class="hero">
 
+
 <div>
-<h1>Welcome to Kamal Electrical & Electronics</h1>
 
-<p>Your Trusted Partner for Electrical Products, Electronics, Repair & Installation Services.</p>
 
-<a href="tel:+919876543210" class="btn">📞 Call Now</a>
+<h1>
+Welcome to Kamal Electrical & Electronics
+</h1>
+
+
+<p>
+Electrical Products | Electronics Repair | Installation Services
+</p>
+
+
+<a class="btn" href="tel:+919876543210">
+📞 Call Now
+</a>
+
 
 </div>
 
+
 </section>
+
+
+
+
+<!-- Services -->
+
 
 <section class="services">
-    <section class="hero">
 
-    <div class="overlay">
 
-        <h1>Kamal Electrical & Electronics</h1>
+<h2>
+Our Services
+</h2>
 
-        <p>
-            Electrical Products | Electronics | Repair | Installation
-        </p>
 
-        <a href="tel:+91 9816459373" class="btn">
-            📞 Call Now
-        </a>
-
-    </div>
-
-</section>
-
-<h2>Our Services</h2>
 
 <div class="cards">
 
-<div class="card">
-<h3>⚡ Electrical Repair</h3>
-<p>Professional repair services for all types of electrical equipment.</p>
-</div>
 
 <div class="card">
-<h3>💡 Electrical Wiring</h3>
-<p>Complete house, office, and commercial wiring solutions.</p>
+
+<h3>
+⚡ Electrical Repair
+</h3>
+
+<p>
+Complete electrical repair and maintenance services.
+</p>
+
 </div>
+
+
 
 <div class="card">
-<h3>🔧 Electronics Repair</h3>
-<p>Repair services for fans, coolers, mixers, irons, and other home appliances.</p>
-</div>
+
+<h3>
+💡 Wiring Service
+</h3>
+
+<p>
+Home, shop and office wiring solutions.
+</p>
 
 </div>
+
+
+
+<div class="card">
+
+<h3>
+🔧 Electronics Repair
+</h3>
+
+<p>
+Fan, cooler, mixer and appliance repair.
+</p>
+
+</div>
+
+
+
+</div>
+
 
 </section>
 
+
+
+
+<!-- Contact -->
+
+
+<section class="contact">
+
+
+<h2>
+Contact Us
+</h2>
+
+
+<p>
+📞 +91 9876543210
+</p>
+
+
+<p>
+📍 Your Shop Address
+</p>
+
+
+</section>
+
+
+
+
 <footer>
 
-<h3>Kamal Electrical & Electronics</h3>
-
-<p>📍 Your Address Here</p>
-
-<p>📞 +91 9816459373</p>
-
-<p>© 2025 Kamal Electrical & Electronics. All Rights Reserved.</p>
+<p>
+© 2025 Kamal Electrical & Electronics
+</p>
 
 </footer>
 
+
+
 </body>
+
 </html>
