@@ -862,3 +862,196 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* Page Fade Animation */
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+
+body{
+
+animation:fadeIn 1s ease;
+
+}
+
+
+
+/* Heading Slide Animation */
+
+@keyframes slideDown{
+
+from{
+
+opacity:0;
+transform:translateY(-50px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+
+.hero-content h1{
+
+animation:slideDown 1s ease;
+
+}
+
+
+
+
+/* Paragraph Animation */
+
+.hero-content p{
+
+animation:fadeUp 1.5s ease;
+
+}
+
+
+
+/* Button Animation */
+
+.btn{
+
+animation:pulse 2s infinite;
+
+}
+
+
+@keyframes pulse{
+
+
+0%{
+
+transform:scale(1);
+
+}
+
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+
+100%{
+
+transform:scale(1);
+
+}
+
+
+}
+
+
+
+
+/* Card Animation */
+
+.service-card,
+.product-card,
+.gallery-card{
+
+animation:fadeUp 1s ease;
+
+transition:0.4s;
+
+}
+
+
+
+.service-card:hover,
+.product-card:hover,
+.gallery-card:hover{
+
+transform:translateY(-15px);
+
+box-shadow:0 15px 30px rgba(0,0,0,0.25);
+
+}
+
+
+
+
+
+/* Fade Up */
+
+@keyframes fadeUp{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+/* Floating WhatsApp */
+
+.floating-whatsapp{
+
+animation:float 2s infinite;
+
+}
+
+
+
+@keyframes float{
+
+
+0%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+
+100%{
+
+transform:translateY(0);
+
+}
+
+
+}
