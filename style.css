@@ -485,3 +485,45 @@ grid-template-columns:1fr;
     display:block;
 
 }
+<div class="product-filter">
+
+
+<input 
+type="text" 
+id="searchBox"
+placeholder="Search Product..."
+onkeyup="searchProduct()">
+
+
+
+<select id="categoryBox" onchange="filterProduct()">
+
+<option value="all">
+All Products
+</option>
+
+
+<option value="Electrical">
+Electrical Items
+</option>
+
+
+<option value="CCTV">
+CCTV Camera
+</option>
+
+
+<option value="Computer">
+Computer Accessories
+</option>
+
+
+<option value="Networking">
+Networking Items
+</option>
+
+
+</select>
+
+
+</div>
