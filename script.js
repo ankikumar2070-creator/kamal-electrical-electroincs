@@ -56,6 +56,23 @@ this.href =
 "https://wa.me/91XXXXXXXXXX?text=" 
 + encodeURIComponent(msg);
 
+document.addEventListener("DOMContentLoaded", function(){
 
+
+let dropdown = document.querySelector(".dropdown");
+
+
+if(dropdown){
+
+dropdown.addEventListener("click", function(e){
+
+this.classList.toggle("active");
+
+});
+
+}
+
+
+});
 
 });
