@@ -74,5 +74,85 @@ this.classList.toggle("active");
 
 
 });
+function searchProduct(){
 
+
+let input =
+document.getElementById("searchBox")
+.value
+.toLowerCase();
+
+
+
+let products =
+document.querySelectorAll(".product-card");
+
+
+
+products.forEach(product=>{
+
+
+let text =
+product.innerText.toLowerCase();
+
+
+
+if(text.includes(input)){
+
+product.style.display="block";
+
+}
+
+else{
+
+product.style.display="none";
+
+}
+
+
+});
+
+
+}
+
+
+
+
+function filterProduct(){
+
+
+let category =
+document.getElementById("categoryBox")
+.value;
+
+
+
+let products =
+document.querySelectorAll(".product-card");
+
+
+
+products.forEach(product=>{
+
+
+if(category=="all" ||
+product.dataset.category==category)
+
+{
+
+product.style.display="block";
+
+}
+
+else{
+
+product.style.display="none";
+
+}
+
+
+});
+
+
+}
 });
