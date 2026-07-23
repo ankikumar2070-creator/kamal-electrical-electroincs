@@ -3,7 +3,7 @@
 
 <head>
 
-<title>Kamal Electrical Services</title>
+<title>Services - Kamal Electrical & Electronics</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -17,11 +17,14 @@
 
 <div class="logo">
 
+<img src="images/logo.svg">
+
 <h2>
-Kamal Electrical & Electronics
+Kamal Electrical
 </h2>
 
 </div>
+
 
 
 <nav>
@@ -32,6 +35,8 @@ Kamal Electrical & Electronics
 
 <a href="products.html">Products</a>
 
+<a href="reviews.html">Reviews</a>
+
 <a href="contact.html">Contact</a>
 
 </nav>
@@ -41,12 +46,16 @@ Kamal Electrical & Electronics
 
 
 
+
+
 <section class="services-page">
 
 
 <h1>
-Our Services
+Our Professional Services
 </h1>
+
+
 
 
 <div class="service-box">
@@ -55,10 +64,12 @@ Our Services
 
 <div class="service-card">
 
-<h3>⚡ Electrical Services</h3>
+<h3>
+⚡ Electrical Services
+</h3>
 
 <p>
-House wiring, electrical repair, installation and maintenance.
+House wiring, electrical repair, installation, maintenance and electrical products supply.
 </p>
 
 </div>
@@ -66,12 +77,15 @@ House wiring, electrical repair, installation and maintenance.
 
 
 
+
 <div class="service-card">
 
-<h3>📷 CCTV Camera</h3>
+<h3>
+📷 CCTV Camera Installation
+</h3>
 
 <p>
-CCTV installation, DVR/NVR setup and security solutions.
+CCTV camera fitting, DVR/NVR setup, security system installation and maintenance.
 </p>
 
 </div>
@@ -79,12 +93,15 @@ CCTV installation, DVR/NVR setup and security solutions.
 
 
 
+
 <div class="service-card">
 
-<h3>💻 Computer Services</h3>
+<h3>
+💻 Computer Service
+</h3>
 
 <p>
-Computer repair, software installation and networking.
+Computer repair, software installation, hardware support and networking solutions.
 </p>
 
 </div>
@@ -92,12 +109,47 @@ Computer repair, software installation and networking.
 
 
 
+
 <div class="service-card">
 
-<h3>⌨ Data Entry</h3>
+<h3>
+⌨ Data Entry
+</h3>
 
 <p>
-Typing, online form filling and office documentation.
+Online forms, typing work, office documentation and data management.
+</p>
+
+</div>
+
+
+
+
+
+<div class="service-card">
+
+<h3>
+🌐 Networking Solutions
+</h3>
+
+<p>
+LAN setup, WiFi installation, router configuration and network support.
+</p>
+
+</div>
+
+
+
+
+
+<div class="service-card">
+
+<h3>
+🔧 Repair & Maintenance
+</h3>
+
+<p>
+Electrical and electronic equipment repair and regular maintenance service.
 </p>
 
 </div>
@@ -112,6 +164,8 @@ Typing, online form filling and office documentation.
 
 
 
+
+
 <footer>
 
 <h3>
@@ -122,8 +176,8 @@ Kamal Electrical & Electronics
 Electrical | CCTV | Computer Solutions
 </p>
 
-</footer>
 
+</footer>
 
 
 </body>
