@@ -1,0 +1,39 @@
+<svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="500" height="150" rx="20" fill="#06234a"/>
+
+
+<!-- Circle Icon -->
+<circle cx="75" cy="75" r="50" fill="#ff9800"/>
+
+
+<!-- Lightning Symbol -->
+<path d="M85 25 L45 80 H70 L60 125 L110 65 H85 Z"
+fill="white"/>
+
+
+<!-- Text -->
+
+<text x="150" y="70"
+font-family="Arial"
+font-size="35"
+font-weight="bold"
+fill="white">
+
+Kamal Electrical
+
+</text>
+
+
+<text x="150" y="105"
+font-family="Arial"
+font-size="18"
+fill="#dddddd">
+
+Electrical • CCTV • Computer Solutions
+
+</text>
+
+
+</svg>
