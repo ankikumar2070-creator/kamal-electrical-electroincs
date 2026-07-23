@@ -1,76 +1,124 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+
+header{
+background:#0b1f3a;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:20px 8%;
+align-items:center;
+}
+
+
+.logo{
+font-size:25px;
+font-weight:bold;
+}
+
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+}
+
+
 .hero{
-    height:90vh;
-    background:
-    linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
-    url("shop.jpg");
+height:80vh;
+background:
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.6)
+),
+url("images/logo.png");
 
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
 }
 
 
-.overlay{
-    color:white;
+.hero h1{
+font-size:45px;
 }
 
 
-.overlay h1{
-    font-size:50px;
-    margin-bottom:20px;
+button{
+padding:12px 30px;
+background:#ff9800;
+border:none;
+margin-top:20px;
+cursor:pointer;
 }
 
 
-.overlay p{
-    font-size:22px;
-    margin-bottom:30px;
+section{
+padding:60px 10%;
+text-align:center;
 }
 
 
-.btn{
-    background:#ff9800;
-    color:white;
-    padding:12px 30px;
-    border-radius:5px;
-    text-decoration:none;
-    font-weight:bold;
-}
-.hero{
-    height:90vh;
-    background:
-    linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
-    url("shop.jpg");
-
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+.cards{
+display:flex;
+gap:20px;
+justify-content:center;
+margin-top:30px;
 }
 
-.overlay{
-    color:white;
+
+.card{
+background:#eee;
+padding:30px;
+border-radius:10px;
+width:300px;
 }
 
-.overlay h1{
-    font-size:50px;
+
+.products{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
 }
 
-.overlay p{
-    font-size:22px;
-    margin:20px 0;
+
+.products div{
+background:#0b1f3a;
+color:white;
+padding:30px;
+border-radius:10px;
 }
 
-.btn{
-    background:#ff9800;
-    color:white;
-    padding:12px 30px;
-    border-radius:5px;
-    text-decoration:none;
+
+footer{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+
+@media(max-width:700px){
+
+.cards{
+flex-direction:column;
+}
+
+.products{
+grid-template-columns:1fr;
+}
+
+header{
+flex-direction:column;
+}
+
 }
