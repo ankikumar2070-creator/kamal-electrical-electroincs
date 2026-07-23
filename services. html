@@ -3,6 +3,10 @@
 
 <head>
 
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Services - Kamal Electrical & Electronics</title>
 
 <link rel="stylesheet" href="style.css">
@@ -26,7 +30,6 @@ Kamal Electrical
 </div>
 
 
-
 <nav>
 
 <a href="index.html">Home</a>
@@ -34,6 +37,8 @@ Kamal Electrical
 <a href="service.html">Services</a>
 
 <a href="products.html">Products</a>
+
+<a href="gallery.html">Gallery</a>
 
 <a href="reviews.html">Reviews</a>
 
@@ -56,6 +61,11 @@ Our Professional Services
 </h1>
 
 
+<p>
+Complete Electrical, CCTV & Computer Solutions
+</p>
+
+
 
 
 <div class="service-box">
@@ -65,12 +75,16 @@ Our Professional Services
 <div class="service-card">
 
 <h3>
-⚡ Electrical Services
+Electrical Services
 </h3>
 
 <p>
-House wiring, electrical repair, installation, maintenance and electrical products supply.
+House wiring, electrical repair, installation, maintenance and electrical products.
 </p>
+
+<a href="electrical.html">
+View Details
+</a>
 
 </div>
 
@@ -81,12 +95,16 @@ House wiring, electrical repair, installation, maintenance and electrical produc
 <div class="service-card">
 
 <h3>
-📷 CCTV Camera Installation
+CCTV Camera
 </h3>
 
 <p>
-CCTV camera fitting, DVR/NVR setup, security system installation and maintenance.
+CCTV camera installation, DVR/NVR setup, security system and maintenance.
 </p>
+
+<a href="cctv.html">
+View Details
+</a>
 
 </div>
 
@@ -97,12 +115,16 @@ CCTV camera fitting, DVR/NVR setup, security system installation and maintenance
 <div class="service-card">
 
 <h3>
-💻 Computer Service
+Computer Service
 </h3>
 
 <p>
-Computer repair, software installation, hardware support and networking solutions.
+Computer repair, software installation, hardware support and networking.
 </p>
+
+<a href="computer.html">
+View Details
+</a>
 
 </div>
 
@@ -113,13 +135,17 @@ Computer repair, software installation, hardware support and networking solution
 <div class="service-card">
 
 <h3>
-⌨ Data Entry
+Data Entry
 </h3>
 
 <p>
 Online forms, typing work, office documentation and data management.
 </p>
 
+<a href="data-entry.html">
+View Details
+</a>
+
 </div>
 
 
@@ -129,15 +155,18 @@ Online forms, typing work, office documentation and data management.
 <div class="service-card">
 
 <h3>
-🌐 Networking Solutions
+Networking
 </h3>
 
 <p>
 LAN setup, WiFi installation, router configuration and network support.
 </p>
 
-</div>
+<a href="networking.html">
+View Details
+</a>
 
+</div>
 
 
 
@@ -145,12 +174,16 @@ LAN setup, WiFi installation, router configuration and network support.
 <div class="service-card">
 
 <h3>
-🔧 Repair & Maintenance
+Repair & Maintenance
 </h3>
 
 <p>
-Electrical and electronic equipment repair and regular maintenance service.
+Electrical and electronic equipment repair with professional support.
 </p>
+
+<a href="contact.html">
+Book Service
+</a>
 
 </div>
 
