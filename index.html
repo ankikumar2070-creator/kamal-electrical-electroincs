@@ -1,780 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamal Electrical & Electronics</title>
 
-<title>Kamal Electronics & Electricals</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+body{
+    background:#f5f5f5;
+}
 
-<link rel="stylesheet" href="css/style.css">
+header{
+    background:#0d6efd;
+    color:#fff;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("shop.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:22px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#ffc107;
+    color:#000;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.services{
+    padding:60px 20px;
+    text-align:center;
+    background:#fff;
+}
+
+.services h2{
+    margin-bottom:40px;
+    color:#0d6efd;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:280px;
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
 
 </head>
-
 <body>
 
-<!-- Top Bar -->
+<header>
+<div class="logo">⚡ Kamal Electrical & Electronics</div>
 
-<div class="topbar">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-md-8">
-
-<span><i class="fa-solid fa-phone"></i> +91 9876543210</span>
-
-<span class="ms-4"><i class="fa-solid fa-envelope"></i>
-kamalelectricals@gmail.com</span>
-
-</div>
-
-<div class="col-md-4 text-end">
-
-<a href="#"><i class="fab fa-facebook"></i></a>
-
-<a href="#"><i class="fab fa-instagram"></i></a>
-
-<a href="#"><i class="fab fa-whatsapp"></i></a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Navbar -->
-
-<nav class="navbar navbar-expand-lg bg-white shadow-sm">
-
-<div class="container">
-
-<a class="navbar-brand fw-bold" href="#">
-
-KAMAL
-
-<span>Electronics & Electricals</span>
-
-</a>
-
-<button class="navbar-toggler" data-bs-toggle="collapse"
-data-bs-target="#menu">
-
-<span class="navbar-toggler-icon"></span>
-
-</button>
-
-<div class="collapse navbar-collapse" id="menu">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-
-<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-
-<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-
-<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-
-<li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-
-<li class="nav-item"><a class="nav-link" href="#">Online Forms</a></li>
-
-<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-
-</ul>
-
-<a href="#" class="btn btn-warning ms-3">
-Get Quote
-</a>
-
-</div>
-
-</div>
-
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">About Us</a>
+<a href="#">Contact</a>
 </nav>
-
-<!-- Hero Section -->
+</header>
 
 <section class="hero">
 
-<div class="container">
+<div>
+<h1>Welcome to Kamal Electrical & Electronics</h1>
 
-<div class="row align-items-center">
+<p>Your Trusted Partner for Electrical Products, Electronics, Repair & Installation Services.</p>
 
-<div class="col-lg-6">
-
-<h1>
-
-KAMAL
-
-<br>
-
-Electronics & Electricals
-
-</h1>
-
-<p>
-
-Complete Electronics & Electrical Solutions
-
-House Wiring | CCTV Camera Installation |
-
-Computer Operator | Online Forms
-
-</p>
-
-<a href="#" class="btn btn-primary">
-
-Call Now
-
-</a>
-
-<a href="#" class="btn btn-outline-light">
-  <!-- Features -->
-
-<section class="features">
-
-<div class="container">
-
-<div class="row text-center">
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="feature-box">
-
-<i class="fa-solid fa-medal"></i>
-
-<h4>Quality Products</h4>
-
-<p>100% Genuine Electrical Products</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="feature-box">
-
-<i class="fa-solid fa-user-check"></i>
-
-<h4>Expert Team</h4>
-
-<p>Professional Installation Service</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="feature-box">
-
-<i class="fa-solid fa-truck-fast"></i>
-
-<h4>Fast Service</h4>
-
-<p>Quick Response & Support</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="feature-box">
-
-<i class="fa-solid fa-shield-halved"></i>
-
-<h4>Warranty</h4>
-
-<p>Reliable Products & Services</p>
-
-</div>
-
-</div>
-
-</div>
+<a href="tel:+919876543210" class="btn">📞 Call Now</a>
 
 </div>
 
 </section>
 
-<section>
+<section class="services">
 
-<div class="container">
+<h2>Our Services</h2>
 
-<h2 class="section-title text-center">
-
-Our Services
-
-</h2>
-
-<div class="row">
-
-<div class="col-lg-4 mb-4">
+<div class="cards">
 
 <div class="card">
-
-<img src="images/services/electrical.jpg">
-
-<div class="card-body">
-
-<h4 class="card-title">
-
-Electrical Installation
-
-</h4>
-
-<p class="card-text">
-
-House Wiring, Switch Board, Fan Installation and Maintenance.
-
-</p>
-
-<a href="#" class="btn-main">
-
-Read More
-
-</a>
-
+<h3>⚡ Electrical Repair</h3>
+<p>Professional repair services for all types of electrical equipment.</p>
 </div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 mb-4">
 
 <div class="card">
-
-<img src="images/services/cctv.jpg">
-
-<div class="card-body">
-
-<h4 class="card-title">
-
-CCTV Camera Installation
-
-</h4>
-
-<p>
-
-HD Camera, DVR Setup, IP Camera Installation.
-
-</p>
-
-<a href="#" class="btn-main">
-
-Read More
-
-</a>
-
+<h3>💡 Electrical Wiring</h3>
+<p>Complete house, office, and commercial wiring solutions.</p>
 </div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 mb-4">
 
 <div class="card">
-
-<img src="images/services/computer.jpg">
-
-<div class="card-body">
-
-<h4 class="card-title">
-
-Computer Operator
-
-</h4>
-
-<p>
-
-Typing, Data Entry, Printing, Scanning and Office Work.
-
-</p>
-
-<a href="#" class="btn-main">
-
-Read More
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 mb-4">
-
-<div class="card">
-
-<img src="images/services/forms.jpg">
-
-<div class="card-body">
-
-<h4 class="card-title">
-
-Online Forms
-
-</h4>
-
-<p>
-
-PAN Card, Aadhaar, Passport, Voter ID, Scholarship Forms.
-
-</p>
-
-<a href="#" class="btn-main">
-
-Read More
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 mb-4">
-
-<div class="card">
-
-<img src="images/services/inverter.jpg">
-
-<div class="card-body">
-
-<h4 class="card-title">
-
-Inverter Installation
-
-</h4>
-
-<p>
-
-Home & Office Inverter Setup with Battery Solutions.
-
-</p>
-
-<a href="#" class="btn-main">
-
-Read More
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-lg-4 mb-4">
-
-<div class="card">
-
-<img src="images/services/repair.jpg">
-
-<div class="card-body">
-
-<h4 class="card-title">
-
-Repair & Maintenance
-
-</h4>
-
-<p>
-
-Electrical Repair and Electronic Maintenance Services.
-
-</p>
-
-<a href="#" class="btn-main">
-
-Read More
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
+<h3>🔧 Electronics Repair</h3>
+<p>Repair services for fans, coolers, mixers, irons, and other home appliances.</p>
 </div>
 
 </div>
 
 </section>
-  
-  Our Products
 
-</a>
+<footer>
 
-</div>
+<h3>Kamal Electrical & Electronics</h3>
 
-<div class="col-lg-6">
+<p>📍 Your Address Here</p>
 
-<img src="images/hero.png"
-class="img-fluid">
+<p>📞 +91 9816459373</p>
 
-</div>
-
-</div>
-
-</div>
-
-</section>
-  <section class="products">
-
-<div class="container">
-
-<h2 class="section-title text-center">
-
-Our Products
-
-</h2>
-
-<div class="row">
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="product-card">
-
-<img src="images/products/bulb.jpg" class="img-fluid">
-
-<h4>LED Bulbs</h4>
-
-<p>Energy Saving LED Bulbs</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="product-card">
-
-<img src="images/products/fan.jpg" class="img-fluid">
-
-<h4>Ceiling Fans</h4>
-
-<p>Premium Quality Fans</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="product-card">
-
-<img src="images/products/wire.jpg" class="img-fluid">
-
-<h4>Wires & Cables</h4>
-
-<p>ISI Certified Products</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-3 col-md-6 mb-4">
-
-<div class="product-card">
-
-<img src="images/products/mcb.jpg" class="img-fluid">
-
-<h4>MCB & Switches</h4>
-
-<p>Trusted Electrical Accessories</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<section class="gallery py-5">
-  <div class="container">
-    <h2 class="section-title text-center">Our Gallery</h2>
-
-    <div class="row">
-
-      <div class="col-md-4 mb-4">
-        <img src="images/gallery/gallery1.jpg" class="img-fluid rounded shadow">
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <img src="images/gallery/gallery2.jpg" class="img-fluid rounded shadow">
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <img src="images/gallery/gallery3.jpg" class="img-fluid rounded shadow">
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <img src="images/gallery/gallery4.jpg" class="img-fluid rounded shadow">
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <img src="images/gallery/gallery5.jpg" class="img-fluid rounded shadow">
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <img src="images/gallery/gallery6.jpg" class="img-fluid rounded shadow">
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<section class="testimonial">
-
-<div class="container">
-
-<h2 class="section-title text-center">
-
-Customer Reviews
-
-</h2>
-
-<div class="row">
-
-<div class="col-lg-4">
-
-<div class="review">
-
-⭐⭐⭐⭐⭐
-
-<p>
-
-Excellent Electrical Service.
-
-Highly Recommended.
-
-</p>
-
-<h5>- Rahul Sharma</h5>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="review">
-
-⭐⭐⭐⭐⭐
-
-<p>
-
-Best CCTV Installation Service.
-
-</p>
-
-<h5>- Aman Kumar</h5>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="review">
-
-⭐⭐⭐⭐⭐
-
-<p>
-
-Fast Online Form Service.
-
-</p>
-
-<h5>- Priya Singh</h5>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<section class="contact py-5">
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-lg-6">
-
-<h2>
-
-Contact Us
-
-</h2>
-
-<form>
-
-<input type="text"
-class="form-control mb-3"
-placeholder="Your Name">
-
-<input type="email"
-class="form-control mb-3"
-placeholder="Email">
-
-<input type="tel"
-class="form-control mb-3"
-placeholder="Phone">
-
-<textarea
-class="form-control mb-3"
-rows="5"
-placeholder="Message"></textarea>
-
-<button class="btn btn-warning">
-
-Send Message
-
-</button>
-
-</form>
-
-</div>
-
-<div class="col-lg-6">
-
-<iframe
-src="https://www.google.com/maps/embed?pb="
-width="100%"
-height="400"
-style="border:0;"
-loading="lazy">
-</iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-  <a href="https://wa.me/919876543210"
-
-class="whatsapp"
-
-target="_blank">
-
-<i class="fab fa-whatsapp"></i>
-
-</a>
-<a href="tel:+919876543210"
-
-class="call-btn">
-
-<i class="fa-solid fa-phone"></i>
-
-</a>
-  <footer>
-
-<div class="container">
-
-<div class="row">
-
-<div class="col-lg-4">
-
-<h4>
-
-Kamal Electronics & Electricals
-
-</h4>
-
-<p>
-
-Electrical Products, CCTV Installation,
-
-Computer Operator & Online Services.
-
-</p>
-
-</div>
-
-<div class="col-lg-4">
-
-<h4>
-
-Quick Links
-
-</h4>
-
-<ul>
-
-<li>Home</li>
-
-<li>About</li>
-
-<li>Services</li>
-
-<li>Products</li>
-
-<li>Contact</li>
-
-</ul>
-
-</div>
-
-<div class="col-lg-4">
-
-<h4>
-
-Contact
-
-</h4>
-
-<p>📞 +91 9876543210</p>
-
-<p>📧 info@kamalelectricals.com</p>
-
-<p>📍 Your City, India</p>
-
-</div>
-
-</div>
-
-<hr>
-
-<p class="text-center">
-
-© 2026 Kamal Electronics & Electricals.
-
-All Rights Reserved.
-
-</p>
-
-</div>
+<p>© 2025 Kamal Electrical & Electronics. All Rights Reserved.</p>
 
 </footer>
-  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>
