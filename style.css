@@ -207,3 +207,88 @@ flex-direction:column;
 }
 
 }
+.hero{
+
+height:90vh;
+
+background:
+linear-gradient(
+rgba(0,0,0,.65),
+rgba(0,0,0,.65)
+),
+url("images/shop.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+color:white;
+text-align:center;
+
+}
+
+
+.hero-content{
+
+max-width:800px;
+
+animation:fade 1.5s;
+
+}
+
+
+.hero h1{
+
+font-size:50px;
+margin-bottom:20px;
+
+}
+
+
+.hero p{
+
+font-size:22px;
+
+}
+
+
+.buttons a{
+
+display:inline-block;
+
+background:#ff9800;
+
+color:white;
+
+padding:14px 30px;
+
+margin:20px 10px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+}
+
+
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
